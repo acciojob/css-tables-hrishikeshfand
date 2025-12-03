@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+ table {
+    border-collapse: separate;
+    border-spacing: 0 10px; /* space between rows */
+    width: 350px;
+  }
+
+  th, td {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem;
+    text-align: left;
+    font-size: 1.1rem;
+  }
+
+  th {
+    font-weight: bold;
+    background-color: #ffffff;
+  }
+
+  /* odd rows */
+  tr:nth-child(odd) td {
+    background-color: #f2f2f2;
+  }
+
+  /* even rows */
+  tr:nth-child(even) td {
+    background-color: #ffffff;
+  }
